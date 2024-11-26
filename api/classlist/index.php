@@ -25,7 +25,7 @@ catch(PDOException $e){
 };
 
 //返ってきた
-var_dump($classList); 
+// var_dump($classList); 
 
 
 header("Content-Type: application/json");
