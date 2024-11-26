@@ -1,7 +1,7 @@
 <?php
 
 const DB_HOST = "localhost";
-const DB_USER = "mkanzaki";
+const DB_USER = "root";
 const DB_PASSWORD = "miki1212";
 const DB_DRIVER = "mysql";
 const DB_NAME = "classroster";
@@ -24,7 +24,8 @@ catch(PDOException $e){
 
 };
 
-var_dump($classList); //かえってきた
+//返ってきた
+var_dump($classList); 
 
 
 header("Content-Type: application/json");
