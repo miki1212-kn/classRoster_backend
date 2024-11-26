@@ -1,4 +1,5 @@
 <?php
+// include = 'connection.php';
 
 const DB_HOST = "localhost";
 const DB_USER = "root";
@@ -24,7 +25,22 @@ catch(PDOException $e){
 
 };
 
-//返ってきた
+
+// $position = $_GET['position'] ?? null;
+
+// if($position && $position !== "--"){
+//   $stmt = $conn->prepare("SELECT * FROM class_list WHERE position = ?");
+//   $stmt->bind_param("s", $position);
+//   $stmt->execute();
+//   $result = $stmt->get_result();
+// }else{
+//   $result = $conn->query("SELECT * FROM class_list");
+// }
+
+// $data = $result->fetch_all(MYSQLI_ASSOC);
+// echo json_encode($data);
+// $conn->close();
+// 返ってきた
 // var_dump($classList); 
 
 
